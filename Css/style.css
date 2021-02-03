@@ -1,0 +1,55 @@
+a{
+    color: #3D58A6;
+}
+body{
+    padding-bottom: 100px;
+}
+.header-wrapper{
+    position: fixed;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.logo-img{
+    width: 196.73px;
+    height: 60px;
+}
+.nav-bar{
+    display: flex;
+}
+.nav-ul{
+    display: flex;
+    margin-top: 35px;
+}
+.nav-li{
+    font-family: 'Roboto-Regular', sans-serif;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+.nav-li:nth-child(1){
+    margin-left: 103px;
+}
+.nav-li:nth-child(2){
+    margin-left: 31px;
+}
+.nav-li:nth-child(3){
+    margin-left: 35px;
+}
+.nav-li:nth-child(4){
+    margin-left: 24px;
+}
+.g-icon-class{
+    width: 47px;
+    height: 30px;
+    margin-left: 155px;
+}
+.fb-icon-class{
+    margin-left: 50px;
+}
+.yt-icon-class{
+    margin-left: 65px;
+}
+.loop-icon-class{
+    margin-left: 60px;
+}
