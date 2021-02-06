@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 a{
     color: #3D58A6;
 }
@@ -21,9 +28,13 @@ body{
     height: 60px;
 }
 .nav-bar{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .nav-ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 35px;
 }
@@ -34,9 +45,16 @@ body{
 }
 .nav-i{
     width: 451px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 30px;
 }
 .nav-li:nth-child(1){
     margin-left: 103px;
@@ -53,6 +71,8 @@ body{
 .fa-google-plus-g{
     color: #3D58A6;
 	font-size: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .fa-google-plus-g::after {
@@ -66,6 +86,8 @@ body{
 .fa-facebook-f{
     color: #3D58A6;
     font-size: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .fa-facebook-f::after {
@@ -79,6 +101,8 @@ body{
 .fa-youtube{
     color: #3D58A6;
     font-size: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .fa-youtube::after {
@@ -92,6 +116,8 @@ body{
 .fa-search{
     color: red;
     font-size: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .section-1{
@@ -145,11 +171,19 @@ body{
     margin-bottom: 90px;
 }
 .vid-div{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .videos-2-div{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .vid-text{
@@ -170,6 +204,8 @@ body{
     color: #3D58A6;
 }
 .four-divs{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 h6{
@@ -200,6 +236,8 @@ h6{
     padding-left: 100px;
 }
 .featured-divs{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 30px;
 }
@@ -233,6 +271,8 @@ h6{
     color: #58595B;
 }
 .inside-div{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .tap-img{
@@ -252,7 +292,29 @@ h6{
     margin-right: 9px;
 }
 .read-more{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end;
-    align-self: end;;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -ms-flex-item-align: end;
+        align-self: end;;
+}
+footer{
+    margin-top: 23px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.footer-left, .footer-right{
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.footer-left{
+    margin-left: 100px;
+}
+.footer-right{
+    margin-left: 800px;
 }
